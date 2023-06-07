@@ -17,7 +17,7 @@ This package supports simple operations such as:
 ___
 
 ```
-pip install  calculator_turing_c_1_1
+pip install  pip install -i https://test.pypi.org/simple/ calculator-turing-c-1-1
 ```
 
 # How to use it:

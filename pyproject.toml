@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "calculator_turing_c_1_1"
-version = "1.0.1"
+version = "1.0.2"
 authors = [
     { name = "Paulius P", email = "paulius@fastmail.org" },
 ]
@@ -13,12 +13,12 @@ description = "A simple calculator module"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
-    "Programming Language :: Python :: 3", "GPL License",
+    "Programming Language :: Python :: 3",
 ]
 
 
 [project.urls]
-"Homepage" = "https://github.com/qwyt/turing_calc_module"
+"Homepage" = "https://github.com/qwyt/calculator_turing_c_1_1"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
