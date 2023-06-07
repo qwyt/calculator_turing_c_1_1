@@ -42,8 +42,4 @@ print(calc.value)
 
 #License
 ---
-
-
-
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+[GNU AGPL](https://github.com/qwyt/m1s1_turring_calc_module/blob/master/LICENSE).
