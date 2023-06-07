@@ -50,4 +50,4 @@ print(calc.value)
 # License:
 
 ___
-[GNU AGPL](https://github.com/qwyt/m1s1_turring_calc_module/blob/master/LICENSE)
+[GNU AGPL](https://github.com/qwyt/calculator_turing_c_1_1/blob/master/LICENSE)
