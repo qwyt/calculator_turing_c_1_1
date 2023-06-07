@@ -1,11 +1,11 @@
 import math
 from unittest import TestCase
 
-from src.calculator.calculator import Calculator
+from src.calculator_turing_c_1_1 import Calculator
 
 
 class TestCalculator(TestCase):
-    def test_add(self):  # type: ignore
+    def test_add(self):
 
         calc = Calculator()
 
@@ -33,7 +33,6 @@ class TestCalculator(TestCase):
         with self.assertRaises(ZeroDivisionError):
             calc.div(0)
 
-
     def test_mult(self):
         calc = Calculator(2)
 
@@ -47,7 +46,12 @@ class TestCalculator(TestCase):
         n = 256
         calc = Calculator(n)
 
-        self.assertEqual(calc.root(n), math.sqrt(256))
+        self.assertEqual(calc.root(), math.sqrt(256))
+
+        n = 81
+        calc = Calculator(n)
+
+        self.assertEqual(calc.root(4), 3)
 
     def test_clear(self):
         calc = Calculator()
@@ -56,7 +60,7 @@ class TestCalculator(TestCase):
         self.assertEqual(calc.add(5000), 5566)
         self.assertEqual(calc.add(50000), 55566)
         self.assertEqual(calc.sub(37044), 18522)
-        self.assertEqual(calc.mult(8), 74088*2)
+        self.assertEqual(calc.mult(8), 74088 * 2)
         self.assertEqual(calc.div(2), 74088)
 
         self.assertEqual(calc.root(3), 42)

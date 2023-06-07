@@ -1,8 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
 [project]
-name = "calculator_turring_c_1_1"
-version = "1.0.0"
+name = "calculator_turing_c_1_1"
+version = "0.0.2"
 authors = [
-  { name="Paulius P", email="paulius@fastmail.org" },
+    { name = "Paulius P", email = "paulius@fastmail.org" },
 ]
 description = "A simple calculator module"
 readme = "README.md"
@@ -11,5 +16,9 @@ classifiers = [
     "Programming Language :: Python :: 3", "GPL License",
 ]
 
+
 [project.urls]
-"Homepage" = "https://github.com/qwyt/turring_calc_module"
+"Homepage" = "https://github.com/qwyt/turing_calc_module"
+
+[tool.setuptools]
+package-dir = { "" = "src" }

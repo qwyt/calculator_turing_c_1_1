@@ -9,14 +9,14 @@ pip install
 ```
 
 # Features
----
+___
 This package supports simple operations such as:
 - Addition / Subtraction
 - Multiplication / Division
 - Square and nth root
 
 # How to use:
-
+___
 ```
 # Initialize initialize a calculator object
 
@@ -41,5 +41,5 @@ print(calc.value)
 
 
 #License
----
+___
 [GNU AGPL](https://github.com/qwyt/m1s1_turring_calc_module/blob/master/LICENSE).
