@@ -1,0 +1,15 @@
+[project]
+name = "calculator_turring_c_1_1"
+version = "1.0.0"
+authors = [
+  { name="Paulius P", email="paulius@fastmail.org" },
+]
+description = "A simple calculator module"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3", "GPL License",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/qwyt/turring_calc_module"
